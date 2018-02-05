@@ -1,0 +1,4 @@
+def test(A) = 
+    let C = ~A in C + A
+    let D = #A in D + A
+    let E = -A in E + A

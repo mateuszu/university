@@ -1,0 +1,14 @@
+def f1(A,B) =
+    A + B
+
+def f2(A1,B2) =
+    A1 / B2
+
+def f3(a1,b2) = 
+    a1 ^ a2
+
+def f4(A) = 
+    let c1 = f1(1,2) in c1 + A 
+    let c2 = f2(2,1) in c2 - A
+    let c3 = f3(1,1) in c3 * A
+    c1 | c2, c3

@@ -1,0 +1,8 @@
+fun justlist(n:int list):bool = 
+match n with 
+| [] -> true 
+| x::xs -> false
+input a b c in if justlist([a,b,c,d]:int list)= false then c else a
+
+
+

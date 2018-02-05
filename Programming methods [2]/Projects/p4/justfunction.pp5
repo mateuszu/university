@@ -1,0 +1,3 @@
+fun funk(n:int):bool = 
+if n=9 then true else false
+input n in if funk(n) then n*3 else n+7

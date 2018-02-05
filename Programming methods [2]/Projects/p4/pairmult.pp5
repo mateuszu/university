@@ -1,0 +1,2 @@
+fun mult_of_pair(x:int*int):int = fst x * snd x 
+input a b in mult_of_pair((a,b))

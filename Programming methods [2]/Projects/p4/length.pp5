@@ -1,0 +1,4 @@
+fun leng(l:int list):int = 
+match l with | [] -> 0 
+| x::xs -> 1 + leng xs 
+input a b c d in leng([a,b,c,d]:int list)

@@ -1,0 +1,4 @@
+def test(A) = 1
+
+def testin(_) =
+	test(2)

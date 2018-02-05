@@ -1,0 +1,4 @@
+fun sumpair(a:(int*int)*(int*int)):int*int =
+(fst (fst a) + snd (fst a), fst (snd a) + snd (snd a))
+input a b c d in 
+if fst (sumpair((a,b),(c,d)))> snd (sumpair((a,b),(c,d))) then fst (sumpair((a,b),(c,d))) else snd (sumpair((a,b),(c,d)))
