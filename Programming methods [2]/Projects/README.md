@@ -16,8 +16,10 @@ Two additional predicats you can test with:
 ```?- show_proof(+Input, +Proof)```  
 ```?- test_and_show(+Name)```
 
-```?- prove([p v q v ~r, ~p v q, r v q, ~q, p], Proof).
+```
+?- prove([p v q v ~r, ~p v q, r v q, ~q, p], Proof).
 Proof = [(p v q v ~r, axiom), (~p v q, axiom), (q v ~r, (p, 1, 2)),
-(r v q, axiom), (q, (r, 4, 3)), (~q, axiom), ([], (q, 5, 6))]. ```  
+(r v q, axiom), (q, (r, 4, 3)), (~q, axiom), ([], (q, 5, 6))]. 
+```    
 
 ```resolve(q, p v q, ~q v r, r v p).```
