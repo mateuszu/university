@@ -30,7 +30,7 @@ prove(Clauses, Proof) :-
 
 
 
-:- module(imie_nazwisko, [resolve/4, prove/2]).
+:- module(imie_nazwisko.pl, [resolve/4, prove/2]).
 
 % negation (~) and disjunction (v) operators definition
 :- op(200, fx, ~).
