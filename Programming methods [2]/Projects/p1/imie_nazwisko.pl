@@ -4,7 +4,7 @@
 % Należy zmienić nazwę modułu na {imie}_{nazwisko} gdzie za
 % {imie} i {nazwisko} należy podstawić odpowiednio swoje imię
 % i nazwisko bez wielkich liter oraz znaków diakrytycznych
-:- module(mateusz_ujda, [resolve/4, prove/2]).
+:- module(imie_nazwisko, [resolve/4, prove/2]).
 
 % definiujemy operatory ~/1 oraz v/2
 :- op(200, fx, ~).
@@ -30,7 +30,7 @@ prove(Clauses, Proof) :-
 
 
 
-:- module(imie_nazwisko.pl, [resolve/4, prove/2]).
+:- module(imie_nazwisko, [resolve/4, prove/2]).
 
 % negation (~) and disjunction (v) operators definition
 :- op(200, fx, ~).
